@@ -13,9 +13,6 @@
 		98296F332A12874F007C6FD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98296F312A12874F007C6FD4 /* Main.storyboard */; };
 		98296F352A128751007C6FD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98296F342A128751007C6FD4 /* Assets.xcassets */; };
 		98296F382A128751007C6FD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98296F362A128751007C6FD4 /* LaunchScreen.storyboard */; };
-		98296F432A128751007C6FD4 /* CounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98296F422A128751007C6FD4 /* CounterTests.swift */; };
-		98296F4D2A128751007C6FD4 /* CounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98296F4C2A128751007C6FD4 /* CounterUITests.swift */; };
-		98296F4F2A128751007C6FD4 /* CounterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98296F4E2A128751007C6FD4 /* CounterUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +42,7 @@
 		98296F372A128751007C6FD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		98296F392A128751007C6FD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		98296F3E2A128751007C6FD4 /* CounterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		98296F422A128751007C6FD4 /* CounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterTests.swift; sourceTree = "<group>"; };
 		98296F482A128751007C6FD4 /* CounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		98296F4C2A128751007C6FD4 /* CounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterUITests.swift; sourceTree = "<group>"; };
-		98296F4E2A128751007C6FD4 /* CounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				98296F2A2A12874F007C6FD4 /* Counter */,
-				98296F412A128751007C6FD4 /* CounterTests */,
-				98296F4B2A128751007C6FD4 /* CounterUITests */,
 				98296F292A12874F007C6FD4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				98296F392A128751007C6FD4 /* Info.plist */,
 			);
 			path = Counter;
-			sourceTree = "<group>";
-		};
-		98296F412A128751007C6FD4 /* CounterTests */ = {
-			isa = PBXGroup;
-			children = (
-				98296F422A128751007C6FD4 /* CounterTests.swift */,
-			);
-			path = CounterTests;
-			sourceTree = "<group>";
-		};
-		98296F4B2A128751007C6FD4 /* CounterUITests */ = {
-			isa = PBXGroup;
-			children = (
-				98296F4C2A128751007C6FD4 /* CounterUITests.swift */,
-				98296F4E2A128751007C6FD4 /* CounterUITestsLaunchTests.swift */,
-			);
-			path = CounterUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,7 +243,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98296F432A128751007C6FD4 /* CounterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +250,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98296F4D2A128751007C6FD4 /* CounterUITests.swift in Sources */,
-				98296F4F2A128751007C6FD4 /* CounterUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
